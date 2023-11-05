@@ -1,2 +1,0 @@
-class MEshiterro < ApplicationRecord
-end
