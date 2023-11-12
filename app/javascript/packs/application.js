@@ -10,7 +10,7 @@ import "channels"
 
 import "jquery";
 import "popper.js";
-import "boosttrap";
+import "bootstrap";
 import "../stylesheets/application";
 
 Rails.start()

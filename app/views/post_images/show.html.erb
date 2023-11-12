@@ -18,7 +18,7 @@
    <% else %>
    <p>
     <%= link_to post_image_favorite_path(@post_image), method: :post do %>
-    %= @post_image.f ♡<avorites.count %>いいね
+     ♡<%= @post_image.favorites.count %>いいね
     <% end %>
    </p>
   <% end %>
